@@ -1,4 +1,4 @@
-# CryptAI - Talk to the  Blockchain with AI
+# SomniaAI - Talk to the  Blockchain with AI
 
 SomniaAI is a conversational web app that allows users to interact with the any Blockchain using natural language  just like talking to ChatGPT.
 
