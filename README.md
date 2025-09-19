@@ -1,8 +1,8 @@
 # CryptAI - Talk to the  Blockchain with AI
 
-CryptAI is a conversational web app that allows users to interact with the any Blockchain using natural language  just like talking to ChatGPT.
+SomniaAI is a conversational web app that allows users to interact with the any Blockchain using natural language  just like talking to ChatGPT.
 
-Built with **Next.js**, **Vercel AI SDK**, **Google Gemini**, CryptAI makes blockchain interactions simple, accessible, and developer-friendly.
+Built with **Next.js**, **Vercel AI SDK**, **Google Gemini**, SomniaAI makes blockchain interactions simple, accessible, and developer-friendly.
 
 > "Talk to the blockchain no code required."
 
@@ -34,7 +34,7 @@ Built with **Next.js**, **Vercel AI SDK**, **Google Gemini**, CryptAI makes bloc
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/rishi-xyz/cryptai.git
+git clone https://github.com/ranapiya/SomniaAI.git
 cd cryptai
 ```
 
