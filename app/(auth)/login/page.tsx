@@ -6,9 +6,6 @@ import { useActionState, useEffect, useState } from 'react';
 import { toast } from 'sonner';
 import { signIn } from 'next-auth/react';
 
-import { AuthForm } from '@/src/components/auth/auth-form';
-import { SubmitButton } from '@/src/components/auth/submit-button';
-
 import { login, LoginActionState } from '@/app/(auth)/actions';
 import { Button } from '@/src/components/ui/button';
 import { Hexagon } from '@/src/components/globals/hexagon';
@@ -31,10 +28,7 @@ export default function Page() {
     }
   }, [state.status, router]);
 
-  const handleSubmit = (formData: FormData) => {
-    setEmail(formData.get('email') as string);
-    formAction(formData);
-  };
+
 
   return (
     <section className="overflow-clip bg-black min-h-screen relative">
