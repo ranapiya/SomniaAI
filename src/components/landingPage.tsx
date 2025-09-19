@@ -35,7 +35,7 @@ const LandingPage = () => {
           </p>
 
           <p className="mt-4 text-lg font-medium text-emerald-400">
-            "Your voice. Your wallet. Your blockchain assistant."
+            Your voice. Your wallet. Your blockchain assistant.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
