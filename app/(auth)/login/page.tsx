@@ -12,8 +12,8 @@ import { Hexagon } from '@/src/components/globals/hexagon';
 
 export default function Page() {
   const router = useRouter();
-  const [email, setEmail] = useState('');
-  const [state, formAction] = useActionState<LoginActionState, FormData>(
+ 
+  const [state] = useActionState<LoginActionState, FormData>(
     login,
     { status: 'idle' }
   );
@@ -69,7 +69,7 @@ export default function Page() {
             </Button>
           </div>
             <p className="mt-4 text-center text-sm text-gray-400">
-              Don’t have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link
                 href="/register"
                 className="font-semibold text-sky-400 hover:underline"
