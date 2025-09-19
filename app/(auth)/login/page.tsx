@@ -69,7 +69,7 @@ export default function Page() {
             </Button>
           </div>
             <p className="mt-4 text-center text-sm text-gray-400">
-              Don&apos;t have an account?{' '}
+              Dont have an account?{' '}
               <Link
                 href="/register"
                 className="font-semibold text-sky-400 hover:underline"

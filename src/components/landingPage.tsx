@@ -59,15 +59,15 @@ const LandingPage = () => {
                 </h3>
 
                 <p className="text-gray-300 mt-3 text-sm leading-relaxed">
-                  Ask natural questions like:&nbsp;
+                  Ask natural questions like
                   <span className="text-white">
-                    &ldquo;What&rsquo;s my wallet balance?&rdquo;
+                    Whats my wallet balance?
                   </span>
                   &nbsp;or&nbsp;
                   <span className="text-white">
-                    &ldquo;Send 5 SUI to Alice.&rdquo;
+                    Send 5 SUI to Alice.
                   </span>
-                  &nbsp;&mdash;&nbsp;all executed through smart blockchain
+                 all executed through smart blockchain
                   integration.
                 </p>
 
