@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import robotImage from '@/public/robot.png';
+import logo from '@/public/logo.png';
 
 export const Overview = () => {
   return (
@@ -15,10 +15,10 @@ export const Overview = () => {
     >
       <div className="flex flex-col gap-4 rounded-2xl border-none p-6 text-sm text-zinc-400">
         <p className="flex flex-row items-center justify-center gap-4 text-gray-900">
-          <Image src={robotImage} alt="CryptAI" width={100} height={100} />
+          <Image src={logo} alt="SomniaAI" width={100} height={100} />
         </p>
         <p>
-          Welcome to CryptAI a Chatbot to chat with blockchain powered by the
+          Welcome to SomniaAI a Chatbot to chat with blockchain powered by the
           Google Gemini model built with
           <code className="bg-muted-foreground/15 rounded-sm px-1.5 py-0.5">
             Nextjs
@@ -37,7 +37,7 @@ export const Overview = () => {
             href="/"
             target="_blank"
           >
-            CryptAI
+            SomniaAI
           </Link>
           .
         </p>

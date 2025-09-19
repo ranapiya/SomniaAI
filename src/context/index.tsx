@@ -1,7 +1,7 @@
 'use client';
 
 import { CreateAppKit } from '@reown/appkit';
-import { mainnet, monadTestnet, sepolia,somniaTestnet } from '@reown/appkit/networks';
+import { mainnet,somniaTestnet } from '@reown/appkit/networks';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import React, { type ReactNode } from 'react';
 import { cookieToInitialState, WagmiProvider, type Config } from 'wagmi';
@@ -28,7 +28,7 @@ export const metadata = {
 export const modal = {
   adapters: [wagmiAdapter],
   projectId,
-  networks: [mainnet, monadTestnet, sepolia,somniaTestnet],
+  networks: [mainnet,somniaTestnet],
   defaultNetwork: somniaTestnet,
   metadata: metadata,
   features: {

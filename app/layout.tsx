@@ -12,8 +12,8 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: 'SomniaAI',
-  description: 'Talk to blockchain in Natural Language',
-  icons: '/robot.png',
+  description: 'A blockchain ai',
+  icons: '/logo.png',
 };
 
 export default async function RootLayout({
@@ -26,7 +26,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${manrope.variable} antialiased`}
+        className={`${manrope.variable} antialiased `}
         suppressHydrationWarning
       >
         <ContextProvider cookies={cookies}>

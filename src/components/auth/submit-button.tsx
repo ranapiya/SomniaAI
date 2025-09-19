@@ -14,7 +14,7 @@ export function SubmitButton({ children }: { children: React.ReactNode }) {
       type={pending ? 'button' : 'submit'}
       aria-disabled={pending}
       variant={'fushia'}
-      className="rounded-lg border-2 border-fuchsia-500/30 hover:cursor-pointer hover:border-fuchsia-500 hover:bg-fuchsia-500/30"
+      className="rounded-lg border-2 border-sky-500/30 bg-black/30 text-white hover:bg-sky-500/20 hover:border-sky-500 transition shadow-md shadow-sky-500/20"
     >
       {children}
       {pending && (
