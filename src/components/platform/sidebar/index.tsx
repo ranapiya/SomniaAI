@@ -18,9 +18,9 @@ export async function AppSidebar({ user }: { user: User | undefined }) {
         <div className="w-full rounded-2xl p-2 hover:bg-white/10">
           <Link
             href={'/'}
-            className="ml-1 bg-white bg-[radial-gradient(100%_100%_at_top_left,#d946ef,white,rgb(74,32,138,.5))] bg-clip-text text-center text-2xl font-semibold tracking-tighter text-transparent md:ml-5 md:text-3xl md:leading-none"
+            className="ml-1 font-extrabold bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text  text-center text-2xl  tracking-tighter text-transparent md:ml-5 md:text-3xl md:leading-none"
           >
-            CryptAI
+            SomniaAI
           </Link>
         </div>
         <NewChatButton />
