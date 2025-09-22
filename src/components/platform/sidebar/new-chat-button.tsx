@@ -17,7 +17,7 @@ const NewChatButton = () => {
           router.push('/chat');
           router.refresh();
         }}
-        className="w-full bg-fuchsia-500/60"
+        className="w-full border-2 border-sky-500/30 bg-black/30 text-white hover:bg-sky-500/20 hover:border-sky-500 transition shadow-md shadow-sky-500/20"
       >
         New Chat
       </Button>
